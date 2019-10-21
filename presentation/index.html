@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+<title>Jar App</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://hips.hearstapps.com/clv.h-cdn.co/assets/cm/15/09/768x516/54eb9120abf67_-_traveltimecapsule-xln.jpg?resize=3747:*");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">Jar App</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#vision" class="w3-bar-item w3-button"><i class="fa fa-eye"></i> VISION</a>
+      <a href="#about" class="w3-bar-item w3-button"><i class="fa fa-comments"></i> FEATURES</a>
+      <a href="#video" class="w3-bar-item w3-button"><i class="fa fa-youtube"></i> VIDEO</a>
+      <a href="#team" class="w3-bar-item w3-button"><i class="fa fa-user"></i> TEAM</a>
+      <a href="#retrospective" class="w3-bar-item w3-button"><i class="fa fa-book"></i> RETROSPECTIVE</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Header with full-height image -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Save</span><br>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Get Started</a></p>
+  </div>
+</header>
+
+<!-- Vision Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="vision">
+  <h3 class="w3-center">Save for what matters</h3>
+  <div class="w3-row-padding" style="margin-top:64px">
+  <p class="w3-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+  </div>
+  <div class="w3-row-padding" style="margin-top:64px">
+  <p class="w3-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+  </div>
+</div>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">Jar App</h3>
+  <p class="w3-center w3-large">Key features</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <i class="fa fa-beer w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Jars</p>
+      <p>Jars, represent your financial goals</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-dollar w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Expenses</p>
+      <p>Expenses,is money spent or cost incurred </p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-tags w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Tagging</p>
+      <p>Tagging, provides fine grained detailed categorization of expenses</p>
+    </div>
+    <div class="w3-quarter">
+      <i class="fa fa-percent w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Statistics</p>
+      <p>Statistics, provides support for strategic planning to achieve your financial goals.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Promo Section - "We know design" -->
+<div class="w3-container w3-light-grey w3-center" style="padding:128px 16px" id="video">
+  <div class="w3-row-padding">
+    <div class="w3-col m4">
+      <h3>Screen Recording.</h3>
+      <p>Lorem ipsum dolor sit amet,Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod consectetur adipiscing elit, sed do eiusmod. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</p>
+    </div>
+    <div class="w3-col m8 w3-center">
+      <iframe width="700" height="394" src="https://www.youtube.com/embed/P1H4PgSThac"></iframe>
+    </div>
+  </div>
+</div>
+
+<div class="w3-center w3-container" style="padding:128px 16px" id="team">
+  <h3 class="w3-center">THE TEAM</h3>
+  <p class="w3-center w3-large">The ones who run the show</p>
+  <div class="w3-center w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-third">
+      <div class="w3-card-4">
+        <img src="https://trendland.com/wp-content/uploads/2013/03/pop-icons-by-white-rabbit-05.jpg" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>Alex Reece</h3>
+        </div>
+      </div>
+    </div>
+    <div class="w3-third">
+      <div class="w3-card-4">
+        <img src="http://www.geekxgirls.com/images/powerrangers3/classic-power-rangers-07.jpg" alt="Jane" style="width:100%">
+        <div class=" w3-center w3-container">
+          <h3>Aaron Roller</h3>
+        </div>
+      </div>
+    </div>
+    <div class="w3-third">
+      <div class="w3-center w3-card-4">
+        <img src="http://www.geekxgirls.com/images/powerrangers3/classic-power-rangers-04.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Madison Fines</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="w3-center w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-third">
+      <div class=" w3-center w3-card">
+        <img src="http://www.geekxgirls.com/images/powerrangers3/classic-power-rangers-01.jpg" alt="Mike" style="width:100%">
+        <div class="w3-container">
+          <h3>Rachel Zeng</h3>
+        </div>
+      </div>
+    </div>
+    <div class="w3-third">
+      <div class="w3-center w3-card">
+        <img src="http://www.geekxgirls.com/images/powerrangers3/classic-power-rangers-02.jpg" alt="Dan" style="width:100%">
+        <div class="w3-container">
+          <h3>Thai Nguyen</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Work Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="retrospective">
+  <h3 class="w3-center">RETROSPECTIVE</h3>
+  <p class="w3-center w3-large">The final wrap up</p>
+
+  <div class="w3-row-padding" style="margin-top:64px">
+  <p class="w3-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+  </div>
+  <div class="w3-row-padding" style="margin-top:64px">
+  <p class="w3-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+  </div>
+   <div class="w3-row-padding" style="margin-top:64px">
+  <p class="w3-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+  </div>
+  <div class="w3-row-padding" style="margin-top:64px">
+  <p class="w3-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+  </div>
+  <div class="w3-row-padding" style="margin-top:64px">
+  <p class="w3-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+
+// Toggle between showing and hiding the sidebar when clicking the menu icon
+var mySidebar = document.getElementById("mySidebar");
+
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+  } else {
+    mySidebar.style.display = 'block';
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+    mySidebar.style.display = "none";
+}
+</script>
+
+</body>
+</html>
